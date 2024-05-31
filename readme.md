@@ -3,8 +3,9 @@
 ## Ejercicio 1: Consumo de APIs
 En esta prueba plazme 2 soluciones para solucionar el primer insiso donde una se realiza por medio de la github api y el otro usando web scrapping, si bien la segunda es mas rapida se puede notar que con la api de github la informacion es mas exacta y detalllada
 
-para correr estas soluciones solamente se requiere digitar. case1(scrapping solution) case2(githubApi solucion)
+para correr estas soluciones solamente se requiere instalar las dependencias y digitar el siguiente comando con el caso que corresponda. case1(scrapping solution) case2(githubApi solucion)
 ```shell
+npm install
 npm run <case>
 ```
 
