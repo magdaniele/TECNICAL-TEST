@@ -1,0 +1,33 @@
+{
+  "name": "tecnical-test",
+  "version": "1.0.0",
+  "description": "Program of answers of Master tecnical test",
+  "main": "app",
+  "type": "module",
+  "scripts": {
+    "case1": "node app/gitHubApi.js",
+    "case2": "node app/scrapping.js",
+    "lint": "eslint *.js"
+  },
+  "author": "magdaniele <eddyjosecardona@gmail.com> (https://github.com/magdaniele)",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.4.5",
+    "octokit": "^4.0.2",
+    "unirest": "^0.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "^3.2.5"
+  },
+  "eslintConfig": {
+    "extends": [
+      "prettier"
+    ]
+  }
+}

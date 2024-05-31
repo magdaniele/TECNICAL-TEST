@@ -1,0 +1,15 @@
+{
+  "extends": ["prettier"],
+  "plugins": ["prettier"],
+  "parserOptions": { "sourceType": "module", "ecmaVersion": "latest" },
+  "rules": {
+    "prettier/prettier": "error",
+    "quotes": ["error", "single"],
+    "spaced-comment": "off",
+    "no-console": "off",
+    "consistent-return": "off",
+    "func-names": "off",
+    "object-shorthand": "off",
+    "no-unused-vars": ["error", { "args": "none" }]
+  }
+}
