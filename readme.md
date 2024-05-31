@@ -42,7 +42,7 @@ const oddNumbers = (number)=>{
 
 ## Ejercicio 4: Modelado de bases de datos
 
-![image info](./assets/modelo de base de datos.png)
+<img src="./assets/modelo de base de datos.png" width="450">
 
 en este modelo se puede reflejar las diferentes tablas y sus relaciones donde empezamos por un usuario que puede ser un autor o un colaborador y realizar tanto reviews como comentarios, seguido por los autores que son usuarios que hacen videos, luego tenemos a los videos que son realizados por autores y pueden tener varios comentarios y reviews adicionalmente se entrelaza con la tabla de colaboradores que manifiesta que un video puede tener varios colaboradores y que en la tabla de colaboradores se tiene que un colaborador puede colaborar a varios videos. Finalmente  comentarios y reviews son tratadas de la misma forma, ya que ambas estan relacionadas a 1 solo video aunque pueden ser muchas la unica diferencia es que en la tabla de comentarios hay un campo llamado parent comment para permitirle al usuario responder comentarios.
 
